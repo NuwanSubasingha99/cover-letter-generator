@@ -33,7 +33,8 @@ def create_streamlit_app(llm, read_cv, clean_text):
     uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
     url_input = st.text_input(
         "Enter a URL:",
-        value="https://hcmcloud.dialog.lk/CareerPortal/Advert?id=4298&schema=bEopnWmcv9llMiBG3zygOw%3D%3D"
+        value=""
+
     )
     submit_button = st.button("Generate Cover Letter")
 
